@@ -1,21 +1,12 @@
 {
   "name": "gc-exorcist",
   "version": "1.0.0",
-  "description": "JVM Garbage Collection Log Analysis — banishing GC demons from your JVM",
-  "author": "SegfaultSorcerer",
-  "homepage": "https://github.com/SegfaultSorcerer/gc-exorcist",
-  "license": "MIT OR Apache-2.0",
-  "skills": [
-    "skills/gc-analyze",
-    "skills/gc-compare",
-    "skills/gc-recommend",
-    "skills/gc-enable"
-  ],
-  "hooks": "hooks/hooks.json",
-  "prerequisites": {
-    "required": ["java"],
-    "optional": ["jcmd", "awk"]
+  "description": "JVM Garbage Collection Log Analysis — parse GC logs, detect memory leaks, recommend JVM flags, and generate GC logging configurations as Claude Code slash commands",
+  "author": {
+    "name": "SegfaultSorcerer",
+    "url": "https://github.com/SegfaultSorcerer"
   },
-  "tags": ["java", "jvm", "gc", "performance", "tuning", "spring"],
-  "keywords": ["garbage collection", "gc tuning", "gc log", "heap", "jvm flags"]
+  "repository": "https://github.com/SegfaultSorcerer/gc-exorcist",
+  "license": "MIT OR Apache-2.0",
+  "keywords": ["java", "jvm", "gc", "garbage-collection", "performance", "tuning", "spring", "heap", "jvm-flags"]
 }

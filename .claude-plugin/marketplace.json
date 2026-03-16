@@ -1,0 +1,23 @@
+{
+  "name": "gc-exorcist",
+  "owner": {
+    "name": "SegfaultSorcerer"
+  },
+  "metadata": {
+    "description": "JVM Garbage Collection Log Analysis for Claude Code — banishing GC demons from your JVM"
+  },
+  "plugins": [
+    {
+      "name": "gc-exorcist",
+      "source": "./",
+      "description": "Parse GC logs, detect memory leaks, recommend JVM flags, and generate GC logging configurations — supports JDK 8-21+, G1/ZGC/Shenandoah/Parallel as Claude Code slash commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "SegfaultSorcerer"
+      },
+      "repository": "https://github.com/SegfaultSorcerer/gc-exorcist",
+      "license": "MIT OR Apache-2.0",
+      "keywords": ["java", "jvm", "gc", "garbage-collection", "performance", "tuning", "spring", "heap", "jvm-flags"]
+    }
+  ]
+}
