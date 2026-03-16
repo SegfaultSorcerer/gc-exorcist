@@ -1,13 +1,27 @@
-<!-- gc-exorcist.png banner would go here -->
-# gc-exorcist
+<p align="center">
+  <img src="assets/gc-exorcist.png" alt="gc-exorcist" width="100%">
+</p>
 
-> **Banishing GC demons from your JVM.**
+<h1 align="center">gc-exorcist</h1>
 
-[![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20%7C%20Apache--2.0-blue.svg)](#license)
-[![Java 8+](https://img.shields.io/badge/Java-8%2B-orange.svg)](#prerequisites)
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet.svg)](https://claude.ai)
+<p align="center">
+  <em>Banishing GC demons from your JVM.</em>
+</p>
 
-**4 slash commands. 3 automation hooks. Zero config to get started.**
+<p align="center">
+  <a href="LICENSE-MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT"></a>
+  <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-Apache_2.0-blue.svg" alt="Apache 2.0"></a>
+  <img src="https://img.shields.io/badge/Java-8+-orange.svg" alt="Java 8+">
+  <img src="https://img.shields.io/badge/Claude_Code-plugin-blueviolet.svg" alt="Claude Code Plugin">
+</p>
+
+<p align="center">
+  A CLI-native, Claude Code-integrated tool that turns GC logs into structured tuning recommendations with concrete JVM flag suggestions — designed to run inside <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a>.
+</p>
+
+<p align="center">
+  4 slash commands. 3 automation hooks. Zero config to get started.
+</p>
 
 Part of the [SegfaultSorcerer](https://github.com/SegfaultSorcerer) Java Tooling Ecosystem.
 
