@@ -1,0 +1,299 @@
+[0.014s][info][gc] Using G1
+[0.015s][info][gc,init] Version: 17.0.9+9 (release)
+[0.015s][info][gc,init] CPUs: 8 total, 8 available
+[0.015s][info][gc,init] Memory: 16384M
+[0.015s][info][gc,init] Large Page Support: Disabled
+[0.015s][info][gc,init] NUMA Support: Disabled
+[0.015s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.015s][info][gc,init] Heap Region Size: 2M
+[0.015s][info][gc,init] Heap Min Capacity: 256M
+[0.015s][info][gc,init] Heap Initial Capacity: 512M
+[0.015s][info][gc,init] Heap Max Capacity: 2048M
+[0.015s][info][gc,init] Pre-touch: Disabled
+[0.015s][info][gc,init] Parallel Workers: 8
+[0.015s][info][gc,init] Concurrent Workers: 2
+[0.015s][info][gc,init] Concurrent Refinement Workers: 8
+[0.015s][info][gc,init] Periodic GC: Disabled
+[8.201s][info][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[8.201s][info][gc,task     ] GC(0) Using 8 workers of 8 for evacuation
+[8.208s][info][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[8.208s][info][gc,phases   ] GC(0)   Evacuate Collection Set: 5.4ms
+[8.208s][info][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.7ms
+[8.208s][info][gc,phases   ] GC(0)   Other: 0.2ms
+[8.208s][info][gc,heap     ] GC(0) Eden regions: 51->0(48)
+[8.208s][info][gc,heap     ] GC(0) Survivor regions: 0->7(7)
+[8.208s][info][gc,heap     ] GC(0) Old regions: 0->4
+[8.208s][info][gc,heap     ] GC(0) Humongous regions: 0->0
+[8.208s][info][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 102M->22M(512M) 6.512ms
+[38.445s][info][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 118M->28M(512M) 7.890ms
+[68.112s][info][gc          ] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 124M->32M(512M) 8.234ms
+[98.556s][info][gc          ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 128M->36M(512M) 9.112ms
+[128.001s][info][gc          ] GC(4) Pause Young (Normal) (G1 Evacuation Pause) 132M->38M(512M) 7.556ms
+[158.445s][info][gc          ] GC(5) Pause Young (Normal) (G1 Evacuation Pause) 134M->40M(512M) 8.901ms
+[188.890s][info][gc          ] GC(6) Pause Young (Normal) (G1 Evacuation Pause) 136M->42M(512M) 10.234ms
+[218.334s][info][gc          ] GC(7) Pause Young (Normal) (G1 Evacuation Pause) 138M->44M(512M) 9.890ms
+[248.778s][info][gc          ] GC(8) Pause Young (Normal) (G1 Evacuation Pause) 140M->46M(512M) 11.223ms
+[279.112s][info][gc          ] GC(9) Pause Young (Normal) (G1 Evacuation Pause) 142M->48M(512M) 8.445ms
+[309.556s][info][gc          ] GC(10) Pause Young (Normal) (G1 Evacuation Pause) 144M->50M(512M) 12.334ms
+[340.001s][info][gc          ] GC(11) Pause Young (Normal) (G1 Evacuation Pause) 146M->52M(512M) 9.112ms
+[370.445s][info][gc          ] GC(12) Pause Young (Normal) (G1 Evacuation Pause) 148M->54M(512M) 13.556ms
+[400.890s][info][gc          ] GC(13) Pause Young (Normal) (G1 Evacuation Pause) 150M->56M(512M) 10.890ms
+[431.334s][info][gc          ] GC(14) Pause Young (Normal) (G1 Evacuation Pause) 152M->58M(512M) 14.223ms
+[461.778s][info][gc          ] GC(15) Pause Young (Normal) (G1 Evacuation Pause) 154M->60M(512M) 11.445ms
+[492.112s][info][gc          ] GC(16) Pause Young (Normal) (G1 Evacuation Pause) 156M->62M(512M) 15.112ms
+[522.556s][info][gc          ] GC(17) Pause Young (Normal) (G1 Evacuation Pause) 158M->64M(512M) 12.778ms
+[553.001s][info][gc          ] GC(18) Pause Young (Normal) (G1 Evacuation Pause) 160M->66M(512M) 16.334ms
+[583.445s][info][gc          ] GC(19) Pause Young (Normal) (G1 Evacuation Pause) 162M->68M(512M) 14.890ms
+[613.890s][info][gc          ] GC(20) Pause Young (Normal) (G1 Evacuation Pause) 164M->70M(512M) 17.112ms
+[644.334s][info][gc          ] GC(21) Pause Young (Normal) (G1 Evacuation Pause) 166M->72M(512M) 15.556ms
+[674.778s][info][gc          ] GC(22) Pause Young (Normal) (G1 Evacuation Pause) 168M->74M(512M) 18.223ms
+[705.112s][info][gc          ] GC(23) Pause Young (Normal) (G1 Evacuation Pause) 170M->76M(512M) 16.890ms
+[735.556s][info][gc          ] GC(24) Pause Young (Normal) (G1 Evacuation Pause) 172M->78M(512M) 19.334ms
+[766.001s][info][gc          ] GC(25) Pause Young (Normal) (G1 Evacuation Pause) 174M->80M(1024M) 17.112ms
+[796.445s][info][gc          ] GC(26) Pause Young (Normal) (G1 Evacuation Pause) 182M->84M(1024M) 20.556ms
+[826.890s][info][gc          ] GC(27) Pause Young (Normal) (G1 Evacuation Pause) 186M->88M(1024M) 18.890ms
+[857.334s][info][gc          ] GC(28) Pause Young (Normal) (G1 Evacuation Pause) 190M->92M(1024M) 22.112ms
+[887.778s][info][gc          ] GC(29) Pause Young (Normal) (G1 Evacuation Pause) 194M->96M(1024M) 19.556ms
+[918.112s][info][gc          ] GC(30) Pause Young (Normal) (G1 Evacuation Pause) 198M->100M(1024M) 24.890ms
+[948.556s][info][gc          ] GC(31) Pause Young (Normal) (G1 Evacuation Pause) 202M->104M(1024M) 21.223ms
+[979.001s][info][gc          ] GC(32) Pause Young (Normal) (G1 Evacuation Pause) 206M->108M(1024M) 26.445ms
+[1009.445s][info][gc          ] GC(33) Pause Young (Normal) (G1 Evacuation Pause) 210M->112M(1024M) 23.112ms
+[1039.890s][info][gc          ] GC(34) Pause Young (Normal) (G1 Evacuation Pause) 214M->116M(1024M) 28.778ms
+[1070.334s][info][gc          ] GC(35) Pause Young (Normal) (G1 Evacuation Pause) 218M->120M(1024M) 25.334ms
+[1100.778s][info][gc          ] GC(36) Pause Young (Normal) (G1 Evacuation Pause) 222M->124M(1024M) 30.112ms
+[1131.112s][info][gc          ] GC(37) Pause Young (Normal) (G1 Evacuation Pause) 226M->128M(1024M) 27.556ms
+[1161.556s][info][gc          ] GC(38) Pause Young (Normal) (G1 Evacuation Pause) 230M->132M(1024M) 32.223ms
+[1192.001s][info][gc          ] GC(39) Pause Young (Normal) (G1 Evacuation Pause) 234M->136M(1024M) 29.890ms
+[1222.445s][info][gc          ] GC(40) Pause Young (Normal) (G1 Evacuation Pause) 238M->140M(1024M) 34.445ms
+[1252.890s][info][gc          ] GC(41) Pause Young (Normal) (G1 Evacuation Pause) 242M->144M(1024M) 31.112ms
+[1283.334s][info][gc          ] GC(42) Pause Young (Normal) (G1 Evacuation Pause) 246M->148M(1024M) 36.778ms
+[1313.778s][info][gc          ] GC(43) Pause Young (Normal) (G1 Evacuation Pause) 250M->152M(1024M) 33.334ms
+[1344.112s][info][gc          ] GC(44) Pause Young (Normal) (G1 Evacuation Pause) 254M->156M(1024M) 38.890ms
+[1374.556s][info][gc          ] GC(45) Pause Young (Normal) (G1 Evacuation Pause) 258M->160M(1024M) 35.445ms
+[1405.001s][info][gc          ] GC(46) Pause Young (Normal) (G1 Evacuation Pause) 262M->164M(1024M) 40.112ms
+[1435.445s][info][gc          ] GC(47) Pause Young (Normal) (G1 Evacuation Pause) 266M->168M(1024M) 37.778ms
+[1465.890s][info][gc          ] GC(48) Pause Young (Normal) (G1 Evacuation Pause) 270M->172M(1024M) 42.334ms
+[1496.334s][info][gc          ] GC(49) Pause Young (Normal) (G1 Evacuation Pause) 274M->176M(1024M) 39.890ms
+[1526.778s][info][gc          ] GC(50) Pause Young (Normal) (G1 Evacuation Pause) 278M->180M(1024M) 44.556ms
+[1557.112s][info][gc          ] GC(51) Pause Young (Normal) (G1 Evacuation Pause) 282M->184M(1024M) 41.223ms
+[1587.556s][info][gc          ] GC(52) Pause Young (Normal) (G1 Evacuation Pause) 286M->188M(1024M) 46.890ms
+[1618.001s][info][gc          ] GC(53) Pause Young (Normal) (G1 Evacuation Pause) 290M->192M(1024M) 43.445ms
+[1648.445s][info][gc          ] GC(54) Pause Young (Normal) (G1 Evacuation Pause) 294M->196M(1024M) 48.112ms
+[1678.890s][info][gc          ] GC(55) Pause Young (Normal) (G1 Evacuation Pause) 298M->200M(1024M) 45.778ms
+[1709.334s][info][gc          ] GC(56) Pause Young (Normal) (G1 Evacuation Pause) 302M->204M(1024M) 50.223ms
+[1739.778s][info][gc          ] GC(57) Pause Young (Normal) (G1 Evacuation Pause) 306M->208M(1024M) 47.890ms
+[1770.112s][info][gc          ] GC(58) Pause Young (Normal) (G1 Evacuation Pause) 310M->212M(1024M) 52.556ms
+[1800.556s][info][gc          ] GC(59) Pause Young (Normal) (G1 Evacuation Pause) 314M->216M(1024M) 49.112ms
+[1831.001s][info][gc          ] GC(60) Pause Young (Normal) (G1 Evacuation Pause) 318M->220M(1024M) 54.890ms
+[1861.445s][info][gc          ] GC(61) Pause Young (Normal) (G1 Evacuation Pause) 322M->224M(1024M) 51.445ms
+[1891.890s][info][gc          ] GC(62) Pause Young (Normal) (G1 Evacuation Pause) 326M->228M(1024M) 56.223ms
+[1922.334s][info][gc          ] GC(63) Pause Young (Normal) (G1 Evacuation Pause) 330M->232M(1024M) 53.778ms
+[1952.778s][info][gc          ] GC(64) Pause Young (Normal) (G1 Evacuation Pause) 334M->236M(1024M) 58.334ms
+[1983.112s][info][gc          ] GC(65) Pause Young (Normal) (G1 Evacuation Pause) 338M->240M(1024M) 55.890ms
+[2013.556s][info][gc          ] GC(66) Pause Young (Normal) (G1 Evacuation Pause) 342M->244M(1024M) 60.445ms
+[2044.001s][info][gc          ] GC(67) Pause Young (Normal) (G1 Evacuation Pause) 346M->248M(1024M) 57.112ms
+[2074.445s][info][gc          ] GC(68) Pause Young (Normal) (G1 Evacuation Pause) 350M->252M(1024M) 62.778ms
+[2104.890s][info][gc          ] GC(69) Pause Young (Normal) (G1 Evacuation Pause) 354M->256M(1024M) 59.334ms
+[2135.334s][info][gc,start    ] GC(70) Pause Young (Normal) (G1 Evacuation Pause)
+[2135.334s][info][gc,task     ] GC(70) Using 8 workers of 8 for evacuation
+[2135.399s][info][gc,phases   ] GC(70)   Pre Evacuate Collection Set: 0.2ms
+[2135.399s][info][gc,phases   ] GC(70)   Evacuate Collection Set: 58.2ms
+[2135.399s][info][gc,phases   ] GC(70)   Post Evacuate Collection Set: 4.1ms
+[2135.399s][info][gc,phases   ] GC(70)   Other: 1.2ms
+[2135.399s][info][gc,heap     ] GC(70) Eden regions: 51->0(40)
+[2135.399s][info][gc,heap     ] GC(70) Survivor regions: 7->9(10)
+[2135.399s][info][gc,heap     ] GC(70) Old regions: 122->135
+[2135.399s][info][gc,heap     ] GC(70) Humongous regions: 4->2
+[2135.399s][info][gc          ] GC(70) Pause Young (Normal) (G1 Evacuation Pause) 368M->292M(1024M) 64.556ms
+[2165.778s][info][gc          ] GC(71) Pause Young (Normal) (G1 Evacuation Pause) 372M->296M(1024M) 61.112ms
+[2196.112s][info][gc          ] GC(72) Pause Young (Normal) (G1 Evacuation Pause) 376M->300M(1024M) 66.890ms
+[2226.556s][info][gc          ] GC(73) Pause Young (Normal) (G1 Evacuation Pause) 380M->304M(1024M) 63.445ms
+[2257.001s][info][gc          ] GC(74) Pause Young (Normal) (G1 Evacuation Pause) 384M->308M(1024M) 68.112ms
+[2287.445s][info][gc          ] GC(75) Pause Young (Normal) (G1 Evacuation Pause) 388M->312M(1024M) 65.778ms
+[2317.890s][info][gc          ] GC(76) Pause Young (Normal) (G1 Evacuation Pause) 392M->316M(1024M) 70.223ms
+[2348.334s][info][gc          ] GC(77) Pause Young (Normal) (G1 Evacuation Pause) 396M->320M(1024M) 67.890ms
+[2378.778s][info][gc          ] GC(78) Pause Young (Normal) (G1 Evacuation Pause) 400M->324M(1024M) 72.556ms
+[2409.112s][info][gc          ] GC(79) Pause Young (Normal) (G1 Evacuation Pause) 404M->328M(1024M) 69.112ms
+[2439.556s][info][gc          ] GC(80) Pause Young (Normal) (G1 Evacuation Pause) 408M->332M(1024M) 74.890ms
+[2470.001s][info][gc          ] GC(81) Pause Young (Normal) (G1 Evacuation Pause) 412M->336M(1024M) 71.445ms
+[2500.445s][info][gc          ] GC(82) Pause Young (Normal) (G1 Evacuation Pause) 416M->340M(1024M) 76.223ms
+[2530.890s][info][gc          ] GC(83) Pause Young (Normal) (G1 Evacuation Pause) 420M->344M(1024M) 73.778ms
+[2561.334s][info][gc          ] GC(84) Pause Young (Normal) (G1 Evacuation Pause) 424M->348M(1024M) 78.334ms
+[2591.778s][info][gc          ] GC(85) Pause Young (Normal) (G1 Evacuation Pause) 428M->352M(1024M) 75.890ms
+[2622.112s][info][gc          ] GC(86) Pause Young (Normal) (G1 Evacuation Pause) 432M->356M(1024M) 80.112ms
+[2652.556s][info][gc          ] GC(87) Pause Young (Normal) (G1 Evacuation Pause) 436M->360M(1024M) 77.556ms
+[2683.001s][info][gc          ] GC(88) Pause Young (Normal) (G1 Evacuation Pause) 440M->364M(2048M) 82.890ms
+[2685.501s][info][gc          ] GC(88a) Pause Young (Normal) (G1 Evacuation Pause) 1680M->380M(2048M) 18.334ms
+[2687.001s][info][gc          ] GC(88b) Pause Young (Normal) (G1 Evacuation Pause) 1720M->390M(2048M) 22.112ms
+[2688.501s][info][gc          ] GC(88c) Pause Young (Normal) (G1 Evacuation Pause) 1750M->395M(2048M) 25.778ms
+[2690.001s][info][gc          ] GC(88d) Pause Young (Normal) (G1 Evacuation Pause) 1690M->385M(2048M) 19.445ms
+[2692.501s][info][gc          ] GC(88e) Pause Young (Normal) (G1 Evacuation Pause) 1710M->388M(2048M) 21.890ms
+[2713.445s][info][gc          ] GC(89) Pause Young (Normal) (G1 Evacuation Pause) 468M->372M(2048M) 79.223ms
+[2743.890s][info][gc          ] GC(90) Pause Young (Normal) (G1 Evacuation Pause) 476M->380M(2048M) 84.556ms
+[2774.334s][info][gc          ] GC(91) Pause Young (Normal) (G1 Evacuation Pause) 484M->388M(2048M) 81.112ms
+[2804.778s][info][gc          ] GC(92) Pause Young (Normal) (G1 Evacuation Pause) 492M->396M(2048M) 86.890ms
+[2835.112s][info][gc          ] GC(93) Pause Young (Normal) (G1 Evacuation Pause) 500M->404M(2048M) 83.445ms
+[2865.556s][info][gc          ] GC(94) Pause Young (Normal) (G1 Evacuation Pause) 508M->412M(2048M) 88.112ms
+[2896.001s][info][gc          ] GC(95) Pause Young (Normal) (G1 Evacuation Pause) 516M->420M(2048M) 85.778ms
+[2926.445s][info][gc          ] GC(96) Pause Young (Normal) (G1 Evacuation Pause) 524M->428M(2048M) 90.334ms
+[2956.890s][info][gc          ] GC(97) Pause Young (Normal) (G1 Evacuation Pause) 532M->436M(2048M) 87.890ms
+[2987.334s][info][gc          ] GC(98) Pause Young (Normal) (G1 Evacuation Pause) 540M->444M(2048M) 85.445ms
+[3017.778s][info][gc          ] GC(99) Pause Young (Normal) (G1 Evacuation Pause) 548M->452M(2048M) 82.112ms
+[3048.112s][info][gc,humongous] GC(100) Live humongous region 412 object size 2621480 start 0x00000007b3800000 with remset 1 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[3048.112s][info][gc,humongous] GC(100) Live humongous region 414 object size 3145736 start 0x00000007b3c00000 with remset 2 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[3048.112s][info][gc,humongous] GC(100) Live humongous region 418 object size 2097168 start 0x00000007b4400000 with remset 1 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[3048.112s][info][gc,humongous] GC(100) Live humongous region 420 object size 4194320 start 0x00000007b4800000 with remset 3 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[3048.112s][info][gc,humongous] GC(100) Live humongous region 424 object size 2621480 start 0x00000007b5000000 with remset 1 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[3048.300s][info][gc,start    ] GC(100) Pause Young (Concurrent Start) (G1 Humongous Allocation)
+[3048.300s][info][gc,task     ] GC(100) Using 8 workers of 8 for evacuation
+[3048.364s][info][gc,phases   ] GC(100)   Pre Evacuate Collection Set: 0.3ms
+[3048.364s][info][gc,phases   ] GC(100)   Evacuate Collection Set: 52.8ms
+[3048.364s][info][gc,phases   ] GC(100)   Post Evacuate Collection Set: 8.2ms
+[3048.364s][info][gc,phases   ] GC(100)   Other: 2.4ms
+[3048.364s][info][gc,heap     ] GC(100) Eden regions: 40->0(35)
+[3048.364s][info][gc,heap     ] GC(100) Survivor regions: 9->10(12)
+[3048.364s][info][gc,heap     ] GC(100) Old regions: 218->230
+[3048.364s][info][gc,heap     ] GC(100) Humongous regions: 12->8
+[3048.364s][info][gc          ] GC(100) Pause Young (Concurrent Start) (G1 Humongous Allocation) 558M->496M(2048M) 63.778ms
+[3048.364s][info][gc          ] GC(101) Concurrent Mark Cycle
+[3048.365s][info][gc,marking  ] GC(101) Concurrent Clear Claimed Marks
+[3048.366s][info][gc,marking  ] GC(101) Concurrent Clear Claimed Marks 0.842ms
+[3048.366s][info][gc,marking  ] GC(101) Concurrent Scan Root Regions
+[3048.399s][info][gc,marking  ] GC(101) Concurrent Scan Root Regions 32.645ms
+[3048.399s][info][gc,marking  ] GC(101) Concurrent Mark
+[3048.812s][info][gc,marking  ] GC(101) Concurrent Mark 413.112ms
+[3048.812s][info][gc,marking  ] GC(101) Concurrent Mark From Roots
+[3049.225s][info][gc,marking  ] GC(101) Concurrent Mark From Roots 412.890ms
+[3049.226s][info][gc,marking  ] GC(101) Concurrent Preclean
+[3049.228s][info][gc,marking  ] GC(101) Concurrent Preclean 2.112ms
+[3049.230s][info][gc,start    ] GC(101) Pause Remark
+[3049.242s][info][gc          ] GC(101) Pause Remark 498M->498M(2048M) 12.334ms
+[3049.243s][info][gc,marking  ] GC(101) Concurrent Rebuild Remembered Sets
+[3049.456s][info][gc,marking  ] GC(101) Concurrent Rebuild Remembered Sets 213.445ms
+[3049.456s][info][gc,start    ] GC(101) Pause Cleanup
+[3049.458s][info][gc          ] GC(101) Pause Cleanup 500M->490M(2048M) 1.890ms
+[3049.459s][info][gc,marking  ] GC(101) Concurrent Cleanup for Next Mark
+[3049.464s][info][gc,marking  ] GC(101) Concurrent Cleanup for Next Mark 4.556ms
+[3049.464s][info][gc          ] GC(101) Concurrent Mark Cycle 1100.112ms
+[3060.112s][info][gc,start    ] GC(102) Pause Young (Prepare Mixed) (G1 Evacuation Pause)
+[3060.112s][info][gc,task     ] GC(102) Using 8 workers of 8 for evacuation
+[3060.160s][info][gc,heap     ] GC(102) Eden regions: 35->0(35)
+[3060.160s][info][gc,heap     ] GC(102) Survivor regions: 10->8(12)
+[3060.160s][info][gc,heap     ] GC(102) Old regions: 230->235
+[3060.160s][info][gc,heap     ] GC(102) Humongous regions: 8->6
+[3060.160s][info][gc          ] GC(102) Pause Young (Prepare Mixed) (G1 Evacuation Pause) 566M->498M(2048M) 48.223ms
+[3080.445s][info][gc,start    ] GC(103) Pause Young (Mixed) (G1 Evacuation Pause)
+[3080.445s][info][gc,task     ] GC(103) Using 8 workers of 8 for evacuation
+[3080.478s][info][gc,heap     ] GC(103) Eden regions: 35->0(38)
+[3080.478s][info][gc,heap     ] GC(103) Survivor regions: 8->6(10)
+[3080.478s][info][gc,heap     ] GC(103) Old regions: 235->210
+[3080.478s][info][gc,heap     ] GC(103) Humongous regions: 6->4
+[3080.478s][info][gc          ] GC(103) Pause Young (Mixed) (G1 Evacuation Pause) 568M->440M(2048M) 32.890ms
+[3100.890s][info][gc          ] GC(104) Pause Young (Mixed) (G1 Evacuation Pause) 516M->408M(2048M) 28.445ms
+[3121.334s][info][gc          ] GC(105) Pause Young (Mixed) (G1 Evacuation Pause) 484M->380M(2048M) 25.112ms
+[3141.778s][info][gc          ] GC(106) Pause Young (Mixed) (G1 Evacuation Pause) 456M->356M(2048M) 22.778ms
+[3162.112s][info][gc          ] GC(107) Pause Young (Mixed) (G1 Evacuation Pause) 432M->336M(2048M) 20.445ms
+[3182.556s][info][gc          ] GC(108) Pause Young (Mixed) (G1 Evacuation Pause) 412M->320M(2048M) 18.112ms
+[3203.001s][info][gc          ] GC(109) Pause Young (Mixed) (G1 Evacuation Pause) 396M->308M(2048M) 16.890ms
+[3223.445s][info][gc          ] GC(110) Pause Young (Mixed) (G1 Evacuation Pause) 384M->296M(2048M) 15.556ms
+[3243.890s][info][gc          ] GC(111) Pause Young (Mixed) (G1 Evacuation Pause) 372M->288M(2048M) 18.223ms
+[3264.334s][info][gc          ] GC(112) Pause Young (Mixed) (G1 Evacuation Pause) 364M->280M(2048M) 21.890ms
+[3284.778s][info][gc          ] GC(113) Pause Young (Mixed) (G1 Evacuation Pause) 356M->276M(2048M) 24.556ms
+[3305.112s][info][gc          ] GC(114) Pause Young (Mixed) (G1 Evacuation Pause) 352M->272M(2048M) 28.112ms
+[3325.556s][info][gc          ] GC(115) Pause Young (Mixed) (G1 Evacuation Pause) 348M->268M(2048M) 32.890ms
+[3346.001s][info][gc          ] GC(116) Pause Young (Mixed) (G1 Evacuation Pause) 344M->264M(2048M) 36.445ms
+[3366.445s][info][gc          ] GC(117) Pause Young (Mixed) (G1 Evacuation Pause) 340M->260M(2048M) 40.112ms
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 512 object size 5242896 start 0x00000007c0000000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 516 object size 3145736 start 0x00000007c0800000 with remset 2 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 520 object size 2621480 start 0x00000007c1000000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 522 object size 4194320 start 0x00000007c1400000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 526 object size 2097168 start 0x00000007c1c00000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 528 object size 6291472 start 0x00000007c2000000 with remset 5 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 534 object size 2621480 start 0x00000007c2c00000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 536 object size 3145736 start 0x00000007c3000000 with remset 2 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 540 object size 2097168 start 0x00000007c3800000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 542 object size 4194320 start 0x00000007c3c00000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 546 object size 2621480 start 0x00000007c4400000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 548 object size 5242896 start 0x00000007c4800000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 552 object size 3145736 start 0x00000007c5000000 with remset 2 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 556 object size 2097168 start 0x00000007c5800000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 558 object size 4194320 start 0x00000007c5c00000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 562 object size 2621480 start 0x00000007c6400000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 564 object size 3145736 start 0x00000007c6800000 with remset 2 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 568 object size 2097168 start 0x00000007c7000000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 570 object size 5242896 start 0x00000007c7400000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 574 object size 4194320 start 0x00000007c7c00000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 578 object size 2621480 start 0x00000007c8400000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 580 object size 3145736 start 0x00000007c8800000 with remset 2 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 584 object size 2097168 start 0x00000007c9000000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 586 object size 6291472 start 0x00000007c9400000 with remset 5 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 592 object size 4194320 start 0x00000007ca000000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 596 object size 2621480 start 0x00000007ca800000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 598 object size 3145736 start 0x00000007cac00000 with remset 2 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 602 object size 2097168 start 0x00000007cb400000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 604 object size 5242896 start 0x00000007cb800000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 608 object size 4194320 start 0x00000007cc000000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 612 object size 2621480 start 0x00000007cc800000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 614 object size 3145736 start 0x00000007ccc00000 with remset 2 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 618 object size 2097168 start 0x00000007cd400000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 620 object size 4194320 start 0x00000007cd800000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 624 object size 2621480 start 0x00000007ce000000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 626 object size 5242896 start 0x00000007ce400000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 630 object size 3145736 start 0x00000007cec00000 with remset 2 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 634 object size 2097168 start 0x00000007cf400000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 636 object size 6291472 start 0x00000007cf800000 with remset 5 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 642 object size 4194320 start 0x00000007d0400000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 646 object size 2621480 start 0x00000007d0c00000 with remset 1 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 648 object size 3145736 start 0x00000007d1000000 with remset 2 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 652 object size 2097168 start 0x00000007d1800000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 654 object size 5242896 start 0x00000007d1c00000 with remset 4 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 658 object size 4194320 start 0x00000007d2400000 with remset 3 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 662 object size 2621480 start 0x00000007d2c00000 with remset 1 code roots 0 is marked 0 reclaim candidate 1 type array 1
+[3386.890s][info][gc,humongous] GC(118) Live humongous region 664 object size 3145736 start 0x00000007d3000000 with remset 2 code roots 0 is marked 1 reclaim candidate 0 type array 1
+[3387.890s][info][gc          ] GC(118) Pause Young (Normal) (G1 Evacuation Pause) 340M->264M(2048M) 45.223ms
+[3418.334s][info][gc,start    ] GC(119) Pause Full (Metadata GC Threshold)
+[3418.334s][info][gc,task     ] GC(119) Using 8 workers of 8 for full compaction
+[3418.334s][info][gc,phases,start] GC(119) Phase 1: Mark live objects
+[3418.412s][info][gc,phases      ] GC(119) Phase 1: Mark live objects 78.112ms
+[3418.412s][info][gc,phases,start] GC(119) Phase 2: Prepare for compaction
+[3418.445s][info][gc,phases      ] GC(119) Phase 2: Prepare for compaction 32.890ms
+[3418.445s][info][gc,phases,start] GC(119) Phase 3: Adjust pointers
+[3418.512s][info][gc,phases      ] GC(119) Phase 3: Adjust pointers 67.445ms
+[3418.512s][info][gc,phases,start] GC(119) Phase 4: Compact heap
+[3418.568s][info][gc,phases      ] GC(119) Phase 4: Compact heap 55.890ms
+[3418.568s][info][gc,heap     ] GC(119) Eden regions: 0->0(52)
+[3418.568s][info][gc,heap     ] GC(119) Survivor regions: 8->0(10)
+[3418.568s][info][gc,heap     ] GC(119) Old regions: 230->198
+[3418.568s][info][gc,heap     ] GC(119) Humongous regions: 46->18
+[3418.568s][info][gc,metaspace] GC(119) Metaspace: 128456K(131072K)->86234K(89088K)
+[3418.568s][info][gc          ] GC(119) Pause Full (Metadata GC Threshold) 528M->432M(2048M) 234.112ms
+[3860.001s][info][gc,start    ] GC(120) Pause Full (G1 Humongous Allocation)
+[3860.001s][info][gc,task     ] GC(120) Using 8 workers of 8 for full compaction
+[3860.001s][info][gc,phases,start] GC(120) Phase 1: Mark live objects
+[3860.112s][info][gc,phases      ] GC(120) Phase 1: Mark live objects 110.890ms
+[3860.112s][info][gc,phases,start] GC(120) Phase 2: Prepare for compaction
+[3860.178s][info][gc,phases      ] GC(120) Phase 2: Prepare for compaction 66.334ms
+[3860.178s][info][gc,phases,start] GC(120) Phase 3: Adjust pointers
+[3860.289s][info][gc,phases      ] GC(120) Phase 3: Adjust pointers 110.556ms
+[3860.289s][info][gc,phases,start] GC(120) Phase 4: Compact heap
+[3860.457s][info][gc,phases      ] GC(120) Phase 4: Compact heap 168.445ms
+[3860.457s][info][gc,heap     ] GC(120) Eden regions: 0->0(60)
+[3860.457s][info][gc,heap     ] GC(120) Survivor regions: 6->0(12)
+[3860.457s][info][gc,heap     ] GC(120) Old regions: 280->256
+[3860.457s][info][gc,heap     ] GC(120) Humongous regions: 38->12
+[3860.457s][info][gc          ] GC(120) Pause Full (G1 Humongous Allocation) 648M->536M(2048M) 456.334ms
+[4510.890s][info][gc,start    ] GC(121) Pause Full (G1 Evacuation Failure)
+[4510.890s][info][gc,task     ] GC(121) Using 8 workers of 8 for full compaction
+[4510.890s][info][gc,phases,start] GC(121) Phase 1: Mark live objects
+[4511.045s][info][gc,phases      ] GC(121) Phase 1: Mark live objects 154.778ms
+[4511.045s][info][gc,phases,start] GC(121) Phase 2: Prepare for compaction
+[4511.145s][info][gc,phases      ] GC(121) Phase 2: Prepare for compaction 100.223ms
+[4511.145s][info][gc,phases,start] GC(121) Phase 3: Adjust pointers
+[4511.312s][info][gc,phases      ] GC(121) Phase 3: Adjust pointers 166.890ms
+[4511.312s][info][gc,phases,start] GC(121) Phase 4: Compact heap
+[4511.568s][info][gc,phases      ] GC(121) Phase 4: Compact heap 256.445ms
+[4511.568s][info][gc,heap     ] GC(121) Eden regions: 0->0(65)
+[4511.568s][info][gc,heap     ] GC(121) Survivor regions: 4->0(14)
+[4511.568s][info][gc,heap     ] GC(121) Old regions: 350->312
+[4511.568s][info][gc,heap     ] GC(121) Humongous regions: 42->8
+[4511.568s][info][gc          ] GC(121) Pause Full (G1 Evacuation Failure) 792M->640M(2048M) 678.112ms

@@ -1,0 +1,28 @@
+{
+  "hooks": [
+    {
+      "type": "PostToolUse",
+      "matcher": {
+        "tool_name": "Bash"
+      },
+      "hooks": [
+        {
+          "type": "command",
+          "command": "powershell -ExecutionPolicy Bypass -File \"%PLUGIN_DIR%\\hooks\\check-gc-logging.ps1\""
+        }
+      ]
+    },
+    {
+      "type": "PreToolUse",
+      "matcher": {
+        "tool_name": "Write|Edit"
+      },
+      "hooks": [
+        {
+          "type": "command",
+          "command": "powershell -ExecutionPolicy Bypass -File \"%PLUGIN_DIR%\\hooks\\check-dockerfile-gc.ps1\""
+        }
+      ]
+    }
+  ]
+}
