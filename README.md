@@ -125,18 +125,22 @@ Control GC logging on running JVM processes (JDK 9+):
 
 ## Installation
 
-### As a Claude Code Plugin
+### Plugin (recommended)
 
-```bash
-claude plugin add SegfaultSorcerer/gc-exorcist
+From within Claude Code:
+
+```
+/plugin marketplace add SegfaultSorcerer/gc-exorcist
+/plugin install gc-exorcist@gc-exorcist
 ```
 
 ### Manual
 
 ```bash
 git clone https://github.com/SegfaultSorcerer/gc-exorcist.git
-cd gc-exorcist
-./scripts/check-prerequisites.sh
+cp -r gc-exorcist/skills/ your-project/.claude/skills/
+cp -r gc-exorcist/hooks/ your-project/.claude/
+cp gc-exorcist/scripts/* your-project/.claude/scripts/
 ```
 
 ---
