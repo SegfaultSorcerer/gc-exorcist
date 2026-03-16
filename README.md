@@ -23,7 +23,9 @@
   4 slash commands. 3 automation hooks. Zero config to get started.
 </p>
 
-Part of the [SegfaultSorcerer](https://github.com/SegfaultSorcerer) Java Tooling Ecosystem.
+<p align="center">
+  Part of the <a href="https://github.com/SegfaultSorcerer">SegfaultSorcerer</a> Java Tooling Ecosystem.
+</p>
 
 ---
 
